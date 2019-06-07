@@ -18,3 +18,42 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 { 
+	font-size: 500%;
+	color: #9daba6;
+}
+
+h2 {
+	color: #6f817c;
+}
+
+p {
+	color: #6e6465;
+}
+
+#featured-image {
+	border-style: solid;
+	border-color: #9daba6;
+	border-width: 3px;
+	margin: auto;
+}
+
+#sponsor img {
+	border-style: solid;
+	border-color: #9daba6;
+	border-width: 3px;
+	margin: auto;
+}
+
+#sponsor img:hover {
+	border-style: solid;
+	border-color: #76817d;
+	border-width: 3px;
+	margin: auto;
+}
+
+footer {
+	text-align: right;
+	color: #6f817c;
+}
