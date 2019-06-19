@@ -1,0 +1,44 @@
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+  
+}  
+.first {    
+  margin-left:0;
+}  
+ 
+.another-class{
+ margin-bottom:0;
+}
+  
+   .col-2 {    
+     width: 66%;    
+     float:left;    
+     margin-left: 1%;
+     margin-bottom: 1%;
+     
+   }  
+   .col-1{    
+     width: 32.5%;    
+     float:left;    
+     margin-left: 1%; 
+     margin-bottom: 1%;
+     
