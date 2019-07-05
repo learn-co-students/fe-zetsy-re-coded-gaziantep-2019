@@ -8,9 +8,13 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	margin: 0 auto;
+	text-align: center;
 }
 
 .wrapper {
+	margin: 0 auto;
+	text-align: center;
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
@@ -18,3 +22,24 @@ body {
 }
 
 /* Write all remaining styles here */
+div {
+    display: block;
+}
+body {
+    background: #F3EBE9;
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    color: -internal-root-color;
+}
+
+.middle {
+	text-align: center;
+}
